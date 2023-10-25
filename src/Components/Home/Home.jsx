@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main>
         <section className='container'>
-            <h3>{people.length}Birthday Today!!</h3>
+            <h3>{people.length} Birthdays Today!!</h3>
             <List people={people}/>
             <button onClick={()=> setPeople([])}>Clear All</button>
         </section>
